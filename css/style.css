@@ -221,3 +221,29 @@ span {
   z-index: -1;
   opacity: 50%;
 }
+
+@media screen and (max-width: 1000px) {
+    .title {
+      font-size: 4rem;
+      line-height: 
+    }
+    
+    .title > p {
+      line-height: 5rem;
+      letter-spacing: -0.3rem;
+    }
+    
+    nav > :not(.sitename, .material-icons) {
+      display: none;
+    }
+    
+    nav {
+      justify-content: space-between;
+    }
+    
+    .material-icons {
+      display: flex;
+      align-items: center;
+    }
+    
+  }
